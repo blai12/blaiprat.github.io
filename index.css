@@ -1,0 +1,166 @@
+
+body{
+	background-color: rgb(255, 253, 253);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p{
+	margin: 0;
+	font-size: 110%;
+}
+
+.main-content{
+	background-color: rgb(124, 124, 124);
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	margin: 40px;
+}
+
+.main-content .top{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding: 40px;
+	padding-bottom: 0;
+}
+
+.main-content .top .img {
+	position: relative;
+	padding-left: 20px;
+	
+}
+
+.main-content .top .profile{
+	width: 300px;
+	position: relative;
+	display: flex;
+	padding-left: 200px;
+}
+
+.main-content .top .profile h3{
+	position: relative;
+	font-weight: 600;
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+}
+
+.main-content .top .profile div{
+	color:yellow ;
+	position: relative;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.main-content .article{
+	position: relative;
+	min-height: 500px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding-left: 60px;
+}
+
+.main-content .article .contact{
+	position: relative;
+}
+
+.main-content .article h3{
+	border-left: 5px solid #e5ff00;
+	padding-left: 10px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.main-content .article .left ul{
+	position: relative;
+	margin: 10px 0;
+}
+
+.main-content .article .left ul li{
+	margin: 15px 0;
+}
+
+.percent {
+	position: relative;
+	width: 100%;
+	background-color:antiquewhite ;
+	height: 6px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+.percent div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: yellow;
+}
+
+.right{
+	position: relative;
+	margin: 40px;
+	padding-left: 40px;
+}
+
+.right .education ul {
+	list-style: none;
+}
+
+.right .education ul li{
+	margin: 20px 0;
+	margin-left: -40px;
+}
+
+h5{
+	font-size: 15px;
+	color: yellow;
+	margin: 0;
+}
+
+h4{
+	color: black;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+
+h6{
+	font-size: 15px;
+	color: black;
+	font-weight: 300;
+	margin: 0;
+}
+
+.pack{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+}
+
+.pack .y_c{
+	min-width: 150px;
+	margin-bottom: 10px;
+}
+
+.pack .y_c h5{
+	color: black;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.pack .y_c h5:nth-child(1){
+	color: yellow;
+}
+
+.pack .text h4{
+	color: yellow;
+	font-size: 18px;
+	margin: 0;
+}
